@@ -1,0 +1,27 @@
+.root {
+	width: 100%;
+	max-width: 768px;
+	height: auto;
+	margin: 32px auto;
+	padding: 64px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.weather {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+	.root {
+		margin: 0;
+		padding: 32px;
+		box-shadow: none;
+		border-radius: 0;
+	}
+
+	.weather {
+		flex-direction: column;
+	}
+}

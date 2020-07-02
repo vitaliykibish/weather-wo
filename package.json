@@ -1,0 +1,9 @@
+{
+	"name": "weather",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {},
+	"devDependencies": {
+		"lerna": "^3.22.1"
+	}
+}

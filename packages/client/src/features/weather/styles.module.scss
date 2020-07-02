@@ -1,0 +1,12 @@
+.root {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-right: 2em;
+}
+
+@media (max-width: 576px) {
+	.root {
+		margin-right: 0;
+	}
+}

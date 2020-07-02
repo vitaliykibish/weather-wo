@@ -1,0 +1,10 @@
+version: '3'
+services:
+  client:
+    build: ./packages/client
+    ports:
+      - 3000:3000
+  server-api:
+    build: ./packages/server-api
+    ports:
+      - 3001:3001

@@ -1,0 +1,10 @@
+body * {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
